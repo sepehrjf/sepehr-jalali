@@ -1,4 +1,4 @@
-import * as React from "react";
+import React from "react";
 import { container } from "./layout.module.css";
 import Navbar from "./navbar";
 import Footer from "./footer";
