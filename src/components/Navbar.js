@@ -1,7 +1,7 @@
 import * as React from "react";
 import { Link } from "gatsby";
 
-const Navbar = () => {
+const Navbar = ({ children }) => {
   return (
     <header className="text-gray-600 body-font">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
@@ -31,6 +31,7 @@ const Navbar = () => {
             Projects
           </Link>
         </nav>
+        {children}
       </div>
     </header>
   );
