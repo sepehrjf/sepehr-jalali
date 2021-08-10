@@ -6,7 +6,7 @@ import Hero from "../components/hero";
 
 const IndexPage = () => {
   return (
-    <Layout pageTitle="">
+    <Layout pageTitle="Home Page">
       <Navbar />
       <Hero />
       <Footer />

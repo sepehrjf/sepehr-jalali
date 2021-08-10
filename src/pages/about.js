@@ -5,7 +5,7 @@ import Footer from "../components/footer";
 
 const AboutPage = () => {
   return (
-    <Layout pageTitle="">
+    <Layout pageTitle="About Page">
       <Navbar />
       <Footer />
     </Layout>
