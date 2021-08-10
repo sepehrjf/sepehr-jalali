@@ -1,0 +1,7 @@
+.section {
+  flex-grow: 1;
+  flex: 1 1 auto;
+  margin-bottom: auto;
+  --tw-text-opacity: 1;
+  color: rgba(75, 85, 99, var(--tw-text-opacity));
+}
