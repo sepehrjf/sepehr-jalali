@@ -1,7 +1,7 @@
 import React from "react";
 import { section } from "./hero.module.css";
 
-const Hero = ({ children }) => {
+const Hero = () => {
   return (
     <section className={section}>
       <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
@@ -34,7 +34,6 @@ const Hero = ({ children }) => {
           />
         </div>
       </div>
-      {children}
     </section>
   );
 };
