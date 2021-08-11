@@ -5,33 +5,34 @@ const Hero = () => {
   return (
     <section className={container}>
       <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-        <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+        <div
+          className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center"
+          style={{ fontFamily: "Mulish, sans-serif" }}
+        >
           <p
             className="sm:text-sm text-xs lowercase mb-4 relative text-gray-900"
-            style={{
-              fontFamily: "Mulish, sans-serif",
-              letterSpacing: "0.16em",
-            }}
+            style={{ letterSpacing: "0.16em" }}
           >
             hello, world!
           </p>
           <h1
             className="sm:text-7xl text-5xl font-bold mb-4 relative text-gray-900"
-            style={{
-              fontFamily: "Playfair Display, serif",
-            }}
+            style={{ fontFamily: "Playfair Display, serif" }}
           >
             I am a Software Engineer
           </h1>
-          <p
-            className="mb-8 leading-relaxed font-normal text-base mb-2"
-            style={{ fontFamily: "Mulish, sans-serif" }}
-          >
+          <p className="md:text-xl sm:text-lg text-base mb-8 leading-relaxed font-normal mb-2">
             I am passionate about problem solving, web development, and enjoy
             making the Internet a more beautiful place.
           </p>
           <div className="flex justify-center">
-            <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+            <button
+              className="inline-flex text-black bg-yellow-400 border-0 py-2 px-6 focus:outline-none hover:bg-yellow-500 rounded text-lg cursor-pointer font-bold"
+              style={{
+                fontSize: "0.9375rem",
+                letterSpacing: "0.095em",
+              }}
+            >
               Button
             </button>
           </div>
