@@ -1,5 +1,5 @@
 import React from "react";
-import { section } from "./hero.module.css";
+import { container } from "./hero.module.css";
 
 const Hero = () => {
   return (
