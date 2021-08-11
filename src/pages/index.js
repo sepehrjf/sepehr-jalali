@@ -5,7 +5,6 @@ import Hero from "../components/hero";
 const IndexPage = () => {
   return (
     <Layout pageTitle="Home Page">
-      <p>Test</p>
       <Hero />
     </Layout>
   );
