@@ -1,11 +1,10 @@
 import React from "react";
 import Navbar from "./navbar";
 import Footer from "./footer";
-import { container } from "./layout.module.css";
 
 const Layout = ({ pageTitle, children }) => {
   return (
-    <div className={container}>
+    <div className="flex flex-col min-h-screen 2xl:mx-52 xl:mx-32 lg:mx-12">
       <title>{pageTitle}</title>
       <Navbar />
       {children}
