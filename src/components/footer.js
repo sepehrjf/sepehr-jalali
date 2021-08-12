@@ -2,16 +2,16 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="text-gray-600">
+    <footer className="text-gray-500">
       <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
         <a
           className="flex items-center md:justify-start justify-center text-gray-900"
           style={{ fontFamily: "Mulish, sans-serif" }}
         >
-          <span className="ml-3 text-xl">Sepehr Jalali</span>
+          <span className="text-xl">Sepehr Jalali</span>
         </a>
         <p
-          className="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4"
+          className="text-sm sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4"
           style={{ fontFamily: "Mulish, sans-serif" }}
         >
           © 2021 Sepehr Jalali
@@ -37,7 +37,7 @@ const Footer = () => {
               <circle cx="4" cy="4" r="2" stroke="none"></circle>
             </svg>
           </a>
-          <a href="https://github.com/sepehrjf" className="ml-3 text-gray-500">
+          <a href="https://github.com/sepehrjf" className="ml-3">
             <svg
               fill="currentColor"
               stroke-linecap="round"
@@ -50,7 +50,7 @@ const Footer = () => {
             </svg>
           </a>
 
-          <a href="https://twitter.com/seps7" className="ml-3 text-gray-500">
+          <a href="https://twitter.com/seps7" className="ml-3">
             <svg
               fill="currentColor"
               stroke-linecap="round"
