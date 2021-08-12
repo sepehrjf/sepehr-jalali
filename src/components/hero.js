@@ -27,13 +27,13 @@ const Hero = () => {
           </p>
           <div className="flex justify-center">
             <button
-              className="inline-flex text-black bg-yellow-400 border-0 py-2 px-6 focus:outline-none hover:bg-yellow-500 rounded text-lg cursor-pointer font-bold"
+              className="inline-flex text-black bg-yellow-400 border border-solid border-transparent py-2 px-6 my-3 mr-3 focus:outline-none hover:bg-yellow-100 rounded-sm text-lg cursor-pointer font-bold text-center lowercase no-underline transition ease-out duration-700 transform hover:scale-110"
               style={{
                 fontSize: "0.9375rem",
                 letterSpacing: "0.095em",
               }}
             >
-              Button
+              see work
             </button>
           </div>
         </div>
