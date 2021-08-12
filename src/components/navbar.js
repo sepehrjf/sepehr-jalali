@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <header>
       <div
-        className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center"
+        className="container mx-auto flex flex-wrap px-5 pb-5 pt-9 flex-col md:flex-row items-center"
         style={{ fontFamily: "Mulish, sans-serif", letterSpacing: "0.13em" }}
       >
         <Link

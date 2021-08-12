@@ -5,9 +5,3 @@
   --tw-text-opacity: 1;
   color: rgba(75, 85, 99, var(--tw-text-opacity));
 }
-
-.hero-btn {
-  border-width: 1px;
-  border-style: solid;
-  border-color: transparent;
-}
