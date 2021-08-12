@@ -1,5 +1,6 @@
 import React from "react";
 import { container } from "./hero.module.css";
+import ButtonYellow from "./buttonYellow";
 
 const Hero = () => {
   return (
@@ -21,21 +22,11 @@ const Hero = () => {
           >
             I am a Software Engineer
           </h1>
-          <p className="md:text-xl sm:text-lg text-base mb-8 leading-relaxed font-normal mb-2">
+          <p className="md:text-xl sm:text-lg text-base mb-8 leading-relaxed font-normal">
             I am passionate about problem solving, web development, and enjoy
             making the Internet a more beautiful place.
           </p>
-          <div className="flex justify-center">
-            <button
-              className="inline-flex text-black bg-yellow-400 border border-solid border-transparent py-2 px-6 my-3 mr-3 focus:outline-none hover:bg-yellow-100 rounded-sm text-lg cursor-pointer font-bold text-center lowercase no-underline transition ease-out duration-700 transform hover:scale-110"
-              style={{
-                fontSize: "0.9375rem",
-                letterSpacing: "0.095em",
-              }}
-            >
-              see work
-            </button>
-          </div>
+          <ButtonYellow name="see work" />
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
           <img
