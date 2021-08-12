@@ -12,7 +12,7 @@ const Navbar = () => {
           to="/"
           className="flex items-center text-base font-semibold mb-4 md:mb-0 lowercase"
         >
-          <span className="ml-3 text-xl">sepehrjalali</span>
+          <span className="text-xl">sepehrjalali</span>
         </Link>
         <nav
           className="md:ml-auto flex flex-wrap items-center text-base font-normal justify-center lowercase"
@@ -21,7 +21,7 @@ const Navbar = () => {
           <Link to="/about" className="mr-5 hover:text-gray-900">
             about
           </Link>
-          <Link to="" className="mr-5 hover:text-gray-900">
+          <Link to="" className="hover:text-gray-900">
             projects
           </Link>
         </nav>
