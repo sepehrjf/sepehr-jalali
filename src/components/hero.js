@@ -2,7 +2,7 @@ import React from "react";
 import { container } from "./hero.module.css";
 import ButtonYellow from "./buttonYellow";
 
-const Hero = () => {
+const Hero = (props) => {
   return (
     <section className={container}>
       <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
@@ -11,20 +11,19 @@ const Hero = () => {
           style={{ fontFamily: "Mulish, sans-serif" }}
         >
           <p
-            className="sm:text-sm text-xs lowercase mb-4 relative text-gray-900"
+            className="greeting sm:text-sm text-xs lowercase mb-4 relative text-gray-900"
             style={{ letterSpacing: "0.16em" }}
           >
-            hello, world!
+            {props.greeting}
           </p>
           <h1
-            className="sm:text-7xl text-5xl font-bold mb-4 relative text-gray-900"
+            className="title sm:text-7xl text-5xl font-bold mb-4 relative text-gray-900"
             style={{ fontFamily: "Playfair Display, serif" }}
           >
-            I am a Software Engineer
+            {props.title}
           </h1>
-          <p className="md:text-xl sm:text-lg text-base mb-8 leading-relaxed font-normal">
-            I am passionate about problem solving, web development, and enjoy
-            making the Internet a more beautiful place.
+          <p className="description md:text-xl sm:text-lg text-base mb-8 leading-relaxed font-normal">
+            {props.description}
           </p>
           <ButtonYellow name="see work" />
         </div>

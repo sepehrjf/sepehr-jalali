@@ -4,8 +4,11 @@ import Hero from "../components/hero";
 
 const AboutPage = () => {
   return (
-    <Layout pageTitle="About Page">
-      <Hero />
+    <Layout pageTitle="About | Sepehr Jalali">
+      <Hero
+        title="Hi. I am Sepehr."
+        description="I am a Computer Science master's at USC in Los Angeles. I love web design, soccer, and football manager."
+      />
     </Layout>
   );
 };
