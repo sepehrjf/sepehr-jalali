@@ -5,8 +5,8 @@ const ProjectCard = () => {
   return (
     <section className="text-gray-600">
       <div className="container px-5 py-24 mx-auto">
-        <div className="flex flex-wrap -mx-4 -mb-10 text-left">
-          <div className="sm:w-1/2 mb-10 border border-solid border-transparent shadow-lg">
+        <div className="flex flex-wrap justify-center -mx-2.5 -mb-10 text-left">
+          <div className="sm:w-1/4 md:w-2/6 lg:w-2/5 mb-10 border border-solid border-transparent shadow-lg mx-2.5">
             <div className="h-64 overflow-hidden">
               <img
                 alt="content"
@@ -16,7 +16,7 @@ const ProjectCard = () => {
             </div>
             <div className="p-8">
               <h2
-                className="font-extralight text-gray-900 mt-6 mb-1.5"
+                className="font-extralight text-gray-900 mb-3"
                 style={{
                   fontFamily: "Playfair Display, serif",
                   fontSize: "2rem",
@@ -37,7 +37,7 @@ const ProjectCard = () => {
               <ButtonYellow name="read more" />
             </div>
           </div>
-          <div className="sm:w-1/2 mb-10 border border-solid border-transparent shadow-lg">
+          <div className="sm:w-1/4 md:w-2/6 lg:w-2/5 mb-10 border border-solid border-transparent shadow-lg mx-2.5">
             <div className="h-64 overflow-hidden">
               <img
                 alt="content"
@@ -47,7 +47,7 @@ const ProjectCard = () => {
             </div>
             <div className="p-7">
               <h2
-                className="font-extralight text-gray-900 mt-6 mb-1.5"
+                className="font-extralight text-gray-900 mb-3"
                 style={{
                   fontFamily: "Playfair Display, serif",
                   fontSize: "2rem",
