@@ -4,7 +4,7 @@ import Footer from "./footer";
 
 const Layout = ({ pageTitle, children }) => {
   return (
-    <div className="flex flex-col min-h-screen 2xl:mx-52 xl:mx-32 lg:mx-12">
+    <div className="flex flex-col mx-auto min-h-screen xl:max-w-screen-xl">
       <title>{pageTitle}</title>
       <Navbar />
       {children}
