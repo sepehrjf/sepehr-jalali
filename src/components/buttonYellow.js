@@ -1,17 +1,19 @@
 import React from "react";
+import { Link } from "gatsby";
 
 const ButtonYellow = (props) => {
   return (
     <div className="flex justify-center">
-      <button
-        className="name inline-flex text-black bg-yellow-400 border border-solid border-transparent py-2 px-6 my-3.5 mr-3 focus:outline-none hover:bg-yellow-100 rounded-sm text-lg cursor-pointer font-bold text-center lowercase no-underline transition ease-out duration-700 transform hover:scale-110"
+      <Link
+        to={props.link}
+        className="border border-solid border-transparent py-2 px-6 my-3.5 mr-3 rounded-sm font-bold text-center lowercase text-lg text-black bg-yellow-400 hover:bg-yellow-100 cursor-pointer no-underline transition ease-out duration-700 transform hover:scale-110"
         style={{
           fontSize: "0.9375rem",
           letterSpacing: "0.095em",
         }}
       >
         {props.name}
-      </button>
+      </Link>
     </div>
   );
 };

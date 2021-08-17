@@ -1,7 +1,7 @@
 import React from "react";
 import Project from "./project";
 
-const projectsLayout = () => {
+const projectsLayout = (props) => {
   return (
     <div className="container px-5 lg:px-10 py-24 mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 text-gray-600 text-left">
       <div>

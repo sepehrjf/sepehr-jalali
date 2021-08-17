@@ -24,7 +24,7 @@ const Hero = (props) => {
           <p className="description text-base sm:text-lg md:text-2xl mb-8 leading-relaxed font-normal">
             {props.description}
           </p>
-          <ButtonYellow name="see work" />
+          <div>{props.button}</div>
         </div>
       </div>
     </div>

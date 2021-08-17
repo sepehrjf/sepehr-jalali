@@ -1,6 +1,7 @@
 import * as React from "react";
 import Layout from "../components/layout";
 import Hero from "../components/hero";
+import ButtonYellow from "../components/buttonYellow";
 
 const AboutPage = () => {
   return (
@@ -8,6 +9,7 @@ const AboutPage = () => {
       <Hero
         title="Hi. I am Sepehr."
         description="I am a Computer Science master's at USC in Los Angeles. I love web design, soccer, and football manager."
+        button={<ButtonYellow name="Read More" link="/about" />}
       />
     </Layout>
   );
