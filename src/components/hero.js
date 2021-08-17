@@ -4,7 +4,7 @@ import ButtonYellow from "./buttonYellow";
 const Hero = (props) => {
   return (
     <div className="flex-grow flex-auto mb-auto text-gray-600">
-      <div className="container flex flex-col md:flex-row items-center mx-auto px-5 py-24">
+      <div className="container flex flex-col md:flex-row mx-auto px-5 py-24">
         <div
           className="md:flex-grow flex flex-col lg:pr-36 md:pr-16 md:items-start md:text-left mb-16 md:mb-0 items-center text-center"
           style={{ fontFamily: "Mulish, sans-serif" }}

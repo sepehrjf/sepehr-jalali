@@ -3,7 +3,7 @@ import ButtonYellow from "./buttonYellow";
 
 const Project = (props) => {
   return (
-    <div className="border border-solid border-transparent shadow-lg">
+    <div className="border border-solid border-transparent shadow-lg bg-white">
       <div className="h-64 overflow-hidden">
         <img
           alt="content"
