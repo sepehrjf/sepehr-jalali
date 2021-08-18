@@ -9,7 +9,12 @@ const AboutPage = () => {
       <Hero
         title="Hi. I am Sepehr."
         description="I am a Computer Science master's at USC in Los Angeles. I love web design, soccer, and football manager."
-        button={<ButtonYellow name="Read More" link="/about" />}
+        button={
+          <ButtonYellow
+            name="LinkedIn"
+            link="https://www.linkedin.com/in/sepehr-jalali/"
+          />
+        }
       />
     </Layout>
   );

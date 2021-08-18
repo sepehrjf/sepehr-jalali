@@ -10,7 +10,9 @@ const ProjectsPage = () => {
       <Hero
         title="Lifelong Learner"
         description="Every project is crafted with care and servers as a learning experience."
-        button={<ButtonYellow name="Read More" link="/about" />}
+        button={
+          <ButtonYellow name="GitHub" link="https://github.com/sepehrjf" />
+        }
       />
       <ProjectsLayout />
     </Layout>

@@ -1,5 +1,4 @@
 import React from "react";
-import ButtonYellow from "./buttonYellow";
 
 const Project = (props) => {
   return (
@@ -30,7 +29,7 @@ const Project = (props) => {
         >
           {props.description}
         </p>
-        <ButtonYellow name="read more" />
+        <div>{props.button}</div>
       </div>
     </div>
   );

@@ -11,7 +11,7 @@ const IndexPage = () => {
         title="I am a Software Engineer"
         description="I am passionate about problem solving, web development, and enjoy
             making the Internet a more beautiful place."
-        button={<ButtonYellow name="See Work" link="/about" />}
+        button={<ButtonYellow name="See Work" link="/projects" />}
       />
     </Layout>
   );
