@@ -1,5 +1,4 @@
 import React from "react";
-import ButtonYellow from "./buttonYellow";
 
 const Hero = (props) => {
   return (
