@@ -29,7 +29,7 @@ const Project = (props) => {
         >
           {props.description}
         </p>
-        <div className="flex">
+        <div className="flex flex-wrap">
           <div>{props.buttonYellow}</div>
           <div>{props.buttonWhite}</div>
         </div>
