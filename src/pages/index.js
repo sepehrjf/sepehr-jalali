@@ -7,10 +7,9 @@ const IndexPage = () => {
   return (
     <Layout pageTitle="Sepehr Jalali">
       <Hero
-        greeting="hello, world!"
+        greeting="hello, world! 👋🏼"
         title="I am a Software Engineer"
-        description="I am passionate about problem solving, web development, and enjoy
-            making the Internet a more beautiful place."
+        description="Passionate about problem solving, web development, artificial intelligence, and data. Currently looking for a summer internship."
         button={<ButtonYellow name="See Work" link="/projects" />}
       />
     </Layout>

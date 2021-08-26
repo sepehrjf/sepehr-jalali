@@ -8,8 +8,8 @@ const AboutPage = () => {
   return (
     <Layout pageTitle="About | Sepehr Jalali">
       <Hero
-        title="Hi. I am Sepehr 👋🏼"
-        description="A Computer Science master's student at USC, based in Los Angeles. I love web development, soccer, and football manager."
+        title="I am Sepehr"
+        description="A Computer Science master's student at University of Southern California (USC), based in Los Angeles. I love Juventus, soccer, and football manager."
         button={
           <ButtonYellow
             name="LinkedIn"
