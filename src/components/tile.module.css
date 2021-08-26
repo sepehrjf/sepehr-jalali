@@ -1,0 +1,11 @@
+.tile {
+  background-color: #fbbf24;
+  content: "";
+  top: 3px;
+  left: 1px;
+  position: relative;
+  width: 0.625rem;
+  height: 0.625rem;
+  margin-right: 0.75rem;
+  transform: rotate(45deg);
+}

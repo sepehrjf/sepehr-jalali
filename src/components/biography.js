@@ -1,17 +1,22 @@
 import React from "react";
+import { tile } from "./tile.module.css";
 
 function Biography(props) {
   return (
     <div className="container flex flex-col flex-grow flex-auto text-gray-800 mx-auto py-20">
       <div className="px-5 sm:px-10 md:px-24 lg:px-48">
-        <div
-          className="question mb-4 relative text-xs sm:text-sm lowercase"
-          style={{
-            fontFamily: "Mulish, sans-serif",
-            letterSpacing: "0.13em",
-          }}
-        >
-          {props.question}
+        <div className="flex mb-4 relative">
+          <div className={tile}></div>
+          <div
+            className="question text-xs sm:text-sm lowercase"
+            style={{
+              fontFamily: "Mulish, sans-serif",
+              letterSpacing: "0.13em",
+              lineHeight: "1rem",
+            }}
+          >
+            {props.question}
+          </div>
         </div>
         <div
           className="title mb-4 leading-relaxed text-xl md:text-3xl font-normal"
@@ -22,7 +27,7 @@ function Biography(props) {
           {props.title}
         </div>
         <div
-          className="description mb-4 leading-relaxed text-base md:text-lg font-normal"
+          className="description mb-4 leading-relaxed text-base lg:text-lg font-normal"
           style={{
             fontFamily: "Mulish, sans-serif",
           }}
